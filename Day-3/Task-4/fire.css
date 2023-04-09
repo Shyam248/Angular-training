@@ -1,0 +1,15 @@
+.timer{
+    color:blue;
+    font-size: 23 px;
+    font-family: helvetica;
+    text-align: center;
+    display: flex;
+     vertical-align: middle;
+}
+.image{
+    z-index: 1;
+    height: 75%;
+    width: 75%;
+    margin-bottom: 10%;
+    margin-left: 12%;
+}
