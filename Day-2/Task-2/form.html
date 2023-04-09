@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Page</title>
+    <link rel ="stylesheet" href="form.css">
+</head>
+<body>
+    <button class="btn" onclick="document.getElementById('popup-window').style.display='block'">Button</button>
+    <!--Popup window -->
+    <div id="popup-window" class="popup-window">
+    <!-- Popup content -->
+    <div class="popup-content">
+    <span class="close-button" onclick="document.getElementById('popup-window').style.display='none'">&times;</span>
+    <!-- Popup content goes here -->
+    <h1 class ="h1text">Fill Form Details</h1>
+<form class ="form">
+    <div class = "text">
+        <label>First Name</label>
+    <input type="text" id="fname">
+    <br>
+    <label>Last Name</label>
+    <input type = "text" id="lname">
+    <br>
+        <label>City</label>
+        <input type ="text" id ="city">
+        <br>
+    </div>
+    <div>
+        <label>Phone number</label>
+        <input type ="number" id ="number">
+        <br>
+    </div>
+    <div>
+        <label>Date of Birth</label>
+        <input type ="number" id ="dob">
+        <br>
+    </div>
+    <div>
+        <label>About you</label>
+        <input type ="text" id ="about-you">
+        <br>
+    </div>
+    <div class ="Gender">
+        <label>Gender</label>
+        <br>
+        <input type="radio" id="Male" name="gender"value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Male">Female</label><br>
+        <br>
+        <label>Skills</label>
+        <input type="checkbox">
+        <label>C#</label>
+        <input type="checkbox">
+        <label>Java</label>
+        <input type="checkbox">
+        <label>Python</label>
+    </div>
+</form>
+
+    </body>
+</html>
