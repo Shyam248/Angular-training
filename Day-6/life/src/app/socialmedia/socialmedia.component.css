@@ -1,0 +1,27 @@
+.socialmedia{
+    width: 100%;
+    display: inline;
+    }
+.twitter{
+    background-color: rgb(11, 228, 109);
+    display: inline-block;
+    width: 33.3%;
+    background-size: 100%;
+    color:aliceblue;
+}
+h1{
+    font-size: 38px;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+p{
+    font-size: 15px;
+    margin-left: 2%;
+    font-weight: normal;
+}
+.twitter-icon{
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 10%;
+}

@@ -1,0 +1,23 @@
+.tiger-image{
+    width:100%;
+    position: relative;
+    margin-bottom: -5px;
+    }
+.h1text{
+    position:absolute;
+    font-weight: normal;
+    font-family: arial;
+    padding-left: 8%;
+    font-size: 235%;
+    color:white;
+}
+.ptext
+{   
+    color:white;
+    position:absolute;
+    font-weight: normal;
+    font-family: arial;
+    padding-left: 8%;
+    margin-top: 9%;
+    font-size: 90%;   
+}
