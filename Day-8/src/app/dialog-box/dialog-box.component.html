@@ -1,0 +1,39 @@
+<button mat-icon-button style="float:right;">
+<mat-icon>close</mat-icon>
+</button>
+<mat-dialog-content>
+    <header>
+        <h2>Registration Form</h2>
+    </header>
+    <p><mat-form-field>
+        <input matInput placeholder= "FirstName">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field></p>
+    <p><mat-form-field>
+        <input matInput placeholder= "LastName">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field></p>
+    <p><mat-form-field>
+        <input matInput placeholder= "Education">
+        <mat-icon matSuffix>note</mat-icon>
+    </mat-form-field></p>
+    <p><mat-form-field>
+        <input matInput placeholder= "E-Mail">
+        <mat-icon matSuffix>drafts</mat-icon>
+    </mat-form-field></p>
+    <p><mat-form-field>
+        <input matInput placeholder= "Choose your birth date">
+    
+        <input matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+         matIconsuffix [for]="picker">
+        </mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    </p>
+    </mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-raised-button color="blue">Save</button>
+    <button mat-raised-button color="red">Cancel</button>
+</mat-dialog-actions>
