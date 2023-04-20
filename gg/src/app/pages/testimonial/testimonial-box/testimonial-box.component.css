@@ -1,0 +1,25 @@
+.title{
+    float:left;
+    margin-left: 20px;
+    
+}
+.testimonial-box {
+    height: 80px;
+    max-width: 70%;
+    border: .5px solid black;
+    margin: .5rem auto;
+
+}
+.message{
+    padding-top: 20px;
+    margin: .5rem;
+    font-size: 1rem;
+}
+.type{
+    float: right;
+    font-size: .8rem;
+    margin: .5rem;
+}
+.message{
+    text-align: center;
+}

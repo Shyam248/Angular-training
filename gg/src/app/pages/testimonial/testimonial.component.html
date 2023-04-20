@@ -1,0 +1,8 @@
+<h2 class="title">
+    Our Customer Feedbacks</h2>
+    <select [ngModel]="selected">
+        <option *ngFor="let x of types">{{x}}</option>
+    </select><br/>
+    
+<app-testimonial-box *ngFor="let x of testimoniallist|typefilter:selected" [feedback]= "x">
+</app-testimonial-box>

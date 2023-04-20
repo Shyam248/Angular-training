@@ -1,0 +1,28 @@
+.menu-bar{
+    background-color: darkblue;
+    color:whitesmoke
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cambria;
+}
+a{
+    color:darkgray;
+    text-decoration: none;
+}
+ul{
+    margin-left: 60px;
+}
+li{
+    font-size: 20px;
+    float: left;
+    padding-left: 50px;
+    list-style: none;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+a:hover{
+    color: antiquewhite;
+}
