@@ -1,0 +1,28 @@
+.product-box{
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.image-holder{
+    height: 80%;
+    width: 100%;
+}
+
+.image-holder img{
+    height: 100%;
+    width: 100%;
+}
+
+.name{
+    height: 20%;
+    text-align: left;
+    font-family:Cambria;
+    font-size: 20px;
+}
+.price
+{
+    font-size: 15px;
+
+}

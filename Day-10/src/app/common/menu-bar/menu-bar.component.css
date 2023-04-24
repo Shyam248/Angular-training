@@ -1,0 +1,23 @@
+.menu-bar{
+    background-color: darkblue;
+    color:whitesmoke
+}
+.title{
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cambria;
+}
+a{
+    color:darkgray;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+  margin-right: 50px;
+  
+}
+li{
+    list-style: none;
+    
+}

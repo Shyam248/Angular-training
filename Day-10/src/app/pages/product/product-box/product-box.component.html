@@ -1,0 +1,14 @@
+<mat-card class ="product-box">
+    <mat-card-title class="name">
+        {{product.name}}
+    </mat-card-title>
+    <div class="price">
+        {{product.price |currency:'INR'}}
+    </div>
+    <div class="image-holder">
+    <img class="image" src= "http://localhost/{{product.image}}">
+    </div>
+    <div class="type">
+        {{product.type}}
+    </div>
+</mat-card  >
