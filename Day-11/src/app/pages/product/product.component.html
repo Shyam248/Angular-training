@@ -1,0 +1,18 @@
+<select [(ngModel)]="selected">
+    <option *ngFor="let x of types">{{x}}</option>
+</select><br/>
+
+<mat-slider min="100" max="100000">
+    <input [(value)]="min_value" [(ngModel)]="min_value" matSliderStartThumb>
+    <input [(value)]="max_value" [(ngModel)]="min_value" matSliderEndThumb>
+    
+  </mat-slider>
+  
+  <div class ="slider">
+  <p> min{{min_value |currency:'INR'}} max{{max_value|currency:'INR'}}</p> 
+</div>
+<div class="slide">
+  <p > </p>
+</div>
+  <app-product-box *ngFor="let x of productlist |typefilter:selected | pricefilter :min_value : max_value" [product]="x">
+</app-product-box>
