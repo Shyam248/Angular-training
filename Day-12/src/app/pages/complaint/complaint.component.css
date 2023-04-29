@@ -1,0 +1,28 @@
+.complaint-form {
+    position: absolute;
+    margin-left: 500px;
+    background-color:antiquewhite;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .message {
+    height: 150px;
+  }
+  
+  button {
+    margin-left: 75px;
+    color: #ffffff;
+    border-radius: 5px;
+      }
+  
+  .alert-info {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: ridge;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
